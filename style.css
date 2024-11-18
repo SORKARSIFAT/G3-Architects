@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-gary{
+    color: #424242;
+}
+.text-light-gray{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1); 
+}
+   main{
+    max-width: 900px;
+   height: 600px;
+    border: 2px solid red;
+    margin: 20px auto;
+   }
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 2rem;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: center;
+}
+.nav-links{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+   text-decoration: none;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+ .navBar , .banner{
+    max-width: 900px;
+    margin: 20px auto ;
+ }  
+
+ /* banner css here  */
+ .banner-title{
+    color: rgb(19, 19, 19);
+
+font-size: 2.1rem;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+ }
+
+ .bannar-desp{
+    color: rgb(114, 114, 114);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+ }
+.btn{
+    text-align: center;
+}
+ .primary-btn{
+    border-radius: 8px;
+
+background: rgb(255, 144, 14);
+
+padding: 15px;
+margin-top: 12px;
+border: none;
+color: rgb(255, 255, 255);
+
+font-size: 1rem;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+
+ }
+
+ .primary-btn:hover{
+    background-color: rgb(189, 18, 18);
+ }
+
+.image{
+    width: 100%;
+    margin-top: 25px;
+   
+}
+
+.image img{
+    width: 100%;
+ 
+border-radius: 8px;
+}
