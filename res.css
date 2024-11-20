@@ -1,0 +1,14 @@
+@media screen and (max-width:576px) {
+    .navBar , .nav-links{
+        flex-direction: column;
+    }
+  .banner-title{
+   
+    font-size: 1rem;
+  }
+  .bannar-desp{
+    
+    font-size: 0.7rem;
+  }
+
+}

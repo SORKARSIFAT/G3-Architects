@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.font-po{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+}
+
 .text-gary{
     color: #424242;
 }
@@ -17,6 +23,7 @@
    height: 600px;
     border: 2px solid red;
     margin: 20px auto;
+   
    }
 .navBar{
     display: flex;
@@ -46,61 +53,52 @@ text-align: center;
 }
  .navBar , .banner{
     max-width: 900px;
-    margin: 20px auto ;
+    margin: 0  auto 30px;
+    
  }  
 
- /* banner css here  */
- .banner-title{
+
+.banner-content{
+    max-width: 55%;
+    margin:  0 auto;
+    text-align: center;
+    
+}
+
+.banner-title{
     color: rgb(19, 19, 19);
+    
+    font-size: 3.5rem;
+    font-weight: 700;
+   
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-font-size: 2.1rem;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: center;
- }
-
- .bannar-desp{
+.bannar-desp{
     color: rgb(114, 114, 114);
 
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
+
 text-align: center;
- }
-.btn{
-    text-align: center;
+margin-bottom: 30px;
 }
- .primary-btn{
-    border-radius: 8px;
-
-background: rgb(255, 144, 14);
-
-padding: 15px;
-margin-top: 12px;
+  
+.primary-btn{
+border-radius: 8px;
 border: none;
+background: rgb(255, 144, 14);
 color: rgb(255, 255, 255);
-
+padding: 12px;
 font-size: 1rem;
 font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
-
- }
-
- .primary-btn:hover{
-    background-color: rgb(189, 18, 18);
- }
-
-.image{
-    width: 100%;
-    margin-top: 25px;
-   
+text-align: center;
 }
 
 .image img{
     width: 100%;
- 
-border-radius: 8px;
+    margin-top: 30px;
 }
