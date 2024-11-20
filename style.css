@@ -25,6 +25,10 @@
     margin: 130px auto;
    
    }
+
+   main section{
+    margin-top: 130px;
+   }
 .navBar{
     display: flex;
     justify-content: space-between;
@@ -151,4 +155,27 @@ text-align: center;
     color: rgb(114, 114, 114);
     font-weight: 400;
     font-size: 0.9rem;
+}
+
+
+
+.section-title{
+    color: rgb(19, 19, 19);
+
+font-size: 1.6rem;
+font-weight: 700;
+text-align: left; 
+margin-bottom: 15px;
+}
+
+
+.section-desp{
+    color: rgb(114, 114, 114);
+    text-align: left;
+font-size: 0.9rem;
+font-weight: 400; 
+}
+
+.section-container{
+    max-width: 536px;
 }
