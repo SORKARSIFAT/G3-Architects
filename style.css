@@ -28,7 +28,9 @@
 
    main section{
     margin-top: 130px;
-   }
+   } 
+
+   
 .navBar{
     display: flex;
     justify-content: space-between;
@@ -180,6 +182,43 @@ text-align: center;
 
 .fact-name{
     color: rgb(114, 114, 114);
+}  
+
+
+#fact-desp{
+    max-width: 540px;
+}  
+
+.sponsors-info{
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}  
+
+.spomsors-companies{
+margin: 50px auto 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+   
+    
+} 
+
+.spomsors-companies img{
+    filter: grayscale(100%);
+}
+
+
+footer{
+    border-radius: 8px;
+
+background: rgb(255, 244, 231);
+max-width: 850px;
+margin: 20px auto 10px; 
+text-align: center;
+color: rgb(66, 66, 66);
+font-size: 1.2rem;
 }
 
 
