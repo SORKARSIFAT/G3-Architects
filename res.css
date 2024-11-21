@@ -16,9 +16,48 @@
 
  .team-img-container{
     grid-template-columns: repeat(1,1fr);
- }
+ }  
+
+ .our-features{
+  margin-left: 50px;
+  margin-top: 20px;
+} 
+  
+.fact-text{
+  margin: 10px;
 }
-.our-features{
-    margin-left: 50px;
-    margin-top: 20px;
+
+
+.facts-container{
+  grid-template-columns:repeat(1,1fr);
+  margin: 0 10px;
+} 
 }
+  @media screen and (min-width:576px) and (max-width:850px){
+    .banner-title{
+   
+      font-size: 1.5rem;
+    }
+    .teams{
+      flex-direction: column;
+      
+   }
+  
+   .team-img-container{
+      grid-template-columns: repeat(2,1fr);
+   } 
+   
+   .our-features{
+    
+    margin-top: 30px;
+  } 
+  .fact-text{
+    margin: 15px;
+  } 
+
+.facts-container{
+  grid-template-columns:repeat(2,1fr);
+  margin: 0 10px;
+} 
+
+  }
